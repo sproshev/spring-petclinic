@@ -1,14 +1,15 @@
 {
   "name": "Java",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "dockerFile": "./../my/Dockerfile",
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "21-oracle",
+      "version": "25-oracle",
       "jdkDistro": "oracle"
     },
     "ghcr.io/devcontainers/features/azure-cli:1": {},
     "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-    "ghcr.io/devcontainers/features/github-cli:1": {}
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
   },
 
   "customizations": {
@@ -21,5 +22,8 @@
       ]
     }
   },
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+
+  "forwardPorts": [35679, 35697],
+  "runArgs": ["--publish", "35679:35679", "--publish", "35697:35697"]
 }
