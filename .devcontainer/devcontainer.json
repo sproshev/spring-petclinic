@@ -12,18 +12,6 @@
     "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
   },
 
-  "customizations": {
-    "vscode": {
-      "settings": {},
-      "extensions": [
-        "redhat.vscode-xml",
-        "visualstudioexptteam.vscodeintellicode",
-        "vscjava.vscode-java-pack"
-      ]
-    }
-  },
-  "remoteUser": "vscode",
-
   "forwardPorts": [35679, 35697],
   "runArgs": ["--publish", "35679:35679", "--publish", "35697:35697"]
 }
