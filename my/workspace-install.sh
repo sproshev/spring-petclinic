@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Config (use bash assignments; allow env overrides)
 FLEET_DOCKER_PLATFORM="${FLEET_DOCKER_PLATFORM:-linux_x64}"
-FLEET_VERSION="${FLEET_VERSION:-261.7}"
+FLEET_VERSION="${FLEET_VERSION:-261.74}"
 LAUNCHER_VERSION="${LAUNCHER_VERSION:-$FLEET_VERSION}"
 LAUNCHER_LOCATION="${LAUNCHER_LOCATION:-/usr/local/bin/fleet-launcher}"
 
