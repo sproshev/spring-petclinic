@@ -1,4 +1,4 @@
-FROM registry.jetbrains.team/p/fleet/docker-public/air-workspace-linux_x64:261.74
+FROM registry.jetbrains.team/p/fleet/docker/air-workspace-linux_x64:261.47
 
 #COPY --chmod=0755 ./workspace-install.sh /tmp/workspace-install.sh
 #RUN /tmp/workspace-install.sh
