@@ -2,6 +2,3 @@ FROM registry.jetbrains.team/p/fleet/docker-public/air-workspace-linux_x64:261.7
 
 #COPY --chmod=0755 ./workspace-install.sh /tmp/workspace-install.sh
 #RUN /tmp/workspace-install.sh
-
-RUN useradd -r -u 11111 -m -s /bin/bash user4agent
-USER user4agent

@@ -12,8 +12,6 @@
     "ghcr.io/anthropics/devcontainer-features/claude-code:1.0": {}
   },
 
-  "remoteUser": "user4agent",
-
   "forwardPorts": [35679, 35697],
   "runArgs": ["--publish", "35679:35679", "--publish", "35697:35697"]
 }
