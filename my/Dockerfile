@@ -1,1 +1,1 @@
-FROM registry.jetbrains.team/p/fleet/docker-public/air-workspace-linux_x64:261.81
+FROM registry.jetbrains.team/p/fleet/docker-public/air-workspace-linux_x64:261.96
